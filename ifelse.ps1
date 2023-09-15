@@ -1,8 +1,8 @@
 #If then else example
-$x = 
+$x = Read-Host "Type your Age"
 
-if ($x -gt 20) {
-    Write-Host "x is greater than 20"
+if ($x -gt 18) {
+    Write-Host "The person is Major"
 } else {
-    Write-Host "x is not greater than 20"
+    Write-Host "The Person is Minor"
 }

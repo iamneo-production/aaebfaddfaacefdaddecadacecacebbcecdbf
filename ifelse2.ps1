@@ -1,11 +1,11 @@
 #If then else elsif example
 
-$x = 10
+$x = Read-Host "Type any number"
 
-if ($x -gt 20) {
-    Write-Host "x is greater than 20"
-} elseif ($x -eq 10) {
-    Write-Host "x is equal to 10"
+if ($x -gt 0) {
+    Write-Host "The given number is Positive"
+} elseif ($x -eq 0) {
+    Write-Host "The given number is Zero"
 } else {
     Write-Host "x is not greater than 20 and not equal to 10"
 }
