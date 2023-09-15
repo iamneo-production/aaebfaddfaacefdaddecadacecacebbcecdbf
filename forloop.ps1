@@ -1,8 +1,7 @@
-#For loop with break
-
+#For loop with continue statement
 for ($i = 1; $i -le 10; $i++) {
-    if ($i -eq 5) {
-        break
+    if ($i % 2 -eq 0) {
+        continue
     }
     Write-Host $i
 }
