@@ -7,5 +7,5 @@ if ($x -gt 0) {
 } elseif ($x -eq 0) {
     Write-Host "The given number is Zero"
 } else {
-    Write-Host "x is not greater than 20 and not equal to 10"
+    Write-Host "The number is Negative"
 }
